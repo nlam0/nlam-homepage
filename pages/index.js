@@ -73,10 +73,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Hi! I'm Nick, and I'm a second-year at Columbia University studying Computer
-          Science and Financial Economics. I'm also interested in urban planning,
+          Hi! I&apos;m Nick, and I&apos;m a second-year at Columbia University studying Computer
+          Science and Financial Economics. I&apos;m also interested in urban planning,
           sustainable development, and the intersection of cities and tech! I love
-          problem solving and puzzlehunts, and also writing music. Right now, I'm working 
+          problem solving and puzzlehunts, and also writing music. Right now, I&apos;m working 
           on a project called {' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop

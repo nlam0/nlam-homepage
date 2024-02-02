@@ -22,7 +22,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-  const footPrintImg = `/images/puzzleicon-dark${useColorModeValue('', '-dark')}.png`
+  const footPrintImg = `/images/puzzleicon${useColorModeValue('', '-dark')}.png`
   return (
     (<Link href="/" scroll={false}>
 

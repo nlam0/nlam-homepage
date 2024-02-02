@@ -32,7 +32,7 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an undergrad student at Columbia studying CS!
+        Hey, I&apos;m an undergrad student at Columbia studying CS!
       </Box>
 
       <Box display={{ md: 'flex' }}>
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/nylprofile.jpg"
+              src="/images/nylprofile2.jpg"
               alt="Profile image"
               width="100"
               height="100"
@@ -73,17 +73,16 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Hi! I'm Nick, and I'm a second-year at Columbia University studying Computer
+          Science and Financial Economics. I'm also interested in urban planning,
+          sustainable development, and the intersection of cities and tech! I love
+          problem solving and puzzlehunts, and also writing music. Right now, I'm working 
+          on a project called {' '}
           <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
             Inkdrop
           </Link>
-          . He publishes content for marketing his products and his YouTube
-          channel called &quot;
+          . I also keep a blog called
+           &quot;
           <Link
             as={NextLink}
             href="https://www.youtube.com/devaslife"
@@ -92,7 +91,7 @@ const Home = () => (
           >
             Dev as Life
           </Link>
-          &quot; has more than 100k subscribers.
+          &quot; where I write about life.
         </Paragraph>
         <Box align="center" my={4}>
           <Button

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Text, useColorModeValue } from '@chakra-ui/react'
-import FootprintIcon from './icons/footprint'
+import Image from 'next/image'
 import styled from '@emotion/styled'
 
 const LogoBox = styled.span`
@@ -22,6 +22,7 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
+  const footPrintImg = `/images/puzzleicon-dark${useColorModeValue('', '-dark')}.png`
   return (
     (<Link href="/" scroll={false}>
 

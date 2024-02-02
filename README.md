@@ -1,12 +1,4 @@
-# Takuya's Homepage
-
-[https://www.craftz.dog/](https://www.craftz.dog/)
-
-## Tutorial
-
-Watch how I built this website on YouTube:
-
-[![YouTube thumbnail](./doc/thumb.png)](https://www.youtube.com/watch?v=bSMZgXzC9AA)
+# Nick's Homepage
 
 ## Stack
 
@@ -32,13 +24,6 @@ $PROJECT_ROOT
 ## License
 
 MIT License.
-
-You can create your own homepage for free without notifying me by forking this project under the following conditions:
-
-- Add a link to [my homepage](https://www.craftz.dog/)
-- Do not use the 3d voxel dog
-
-Check out [LICENSE](./LICENSE) for more detail.
 
 ---
 

@@ -40,7 +40,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Nick Lam
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>( Software Developer / Web Designer / Digital Artist )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -59,7 +59,7 @@ const Home = () => (
             overflow="hidden"
           >
             <Image
-              src="/images/takuya.jpg"
+              src="/images/nylprofile.jpg"
               alt="Profile image"
               width="100"
               height="100"

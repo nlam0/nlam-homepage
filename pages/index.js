@@ -107,7 +107,7 @@ const Home = () => (
         </Heading>
         <Paragraph>
           Artificial Intelligence, Sustainable Cities,{' '}
-          <Link href="https://https://open.spotify.com/user/xw3ud9q8mhto3ff9qml8cvhd8" target="_blank">
+          <Link href="https://open.spotify.com/user/xw3ud9q8mhto3ff9qml8cvhd8" target="_blank">
             Music Production
           </Link>
           , and UI/UX Design.

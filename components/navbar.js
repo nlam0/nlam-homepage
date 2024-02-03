@@ -77,16 +77,16 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
+          <LinkItem href="/works/wasd" path={path}>
             Works
           </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
+          <LinkItem href="/wallpapers/wasd" path={path}>
             Wallpapers
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="/posts/wasd" path={path}>
             Posts
           </LinkItem>
-          <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem>
+          <LinkItem href="/works/wasd">Uses</LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/nlam0/nlam-homepage"
@@ -116,16 +116,16 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/">
                   About
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
+                <MenuItem as={MenuLink} href="/works/wasd">
                   Works
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
+                <MenuItem as={MenuLink} href="/wallpapers/wasd">
                   Wallpapers
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
+                <MenuItem as={MenuLink} href="/posts/wasd">
                   Posts
                 </MenuItem>
-                <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
+                <MenuItem as={MenuLink} href="/works/wasd">
                   Uses
                 </MenuItem>
                 <MenuItem

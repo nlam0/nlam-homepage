@@ -70,7 +70,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me!
         </Heading>
         <Paragraph>
           Hi! I&apos;m Nick, and I&apos;m a second-year at Columbia University studying Computer
@@ -78,18 +78,18 @@ const Home = () => (
           sustainable development, and the intersection of cities and tech! I love
           problem solving and puzzlehunts, and also writing music. Right now, I&apos;m working 
           on a project called {' '}
-          <Link as={NextLink} href="/works/inkdrop" passHref scroll={false}>
-            Inkdrop
+          <Link as={NextLink} href="/works/wasd" passHref scroll={false}>
+            EXAMPLE
           </Link>
           . I also keep a blog called
            &quot;
           <Link
             as={NextLink}
-            href="https://www.youtube.com/devaslife"
+            href="https://www.nicklam.dev/wasd"
             passHref
             target="_blank"
           >
-            Dev as Life
+            EXAMPLE
           </Link>
           &quot; where I write about life.
         </Paragraph>
@@ -106,132 +106,76 @@ const Home = () => (
         </Box>
       </Section>
 
-      <Section delay={0.2}>
-        <Heading as="h3" variant="section-title">
-          Bio
-        </Heading>
-        <BioSection>
-          <BioYear>1984</BioYear>
-          Born in Osaka (大阪), Japan.
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Completed the Master&apos;s Program in the Graduate School of
-          Information Science at Nara Institute of Science and Technology
-          (奈良先端科学技術大学院大学情報科学研究科修士課程)
-        </BioSection>
-        <BioSection>
-          <BioYear>2010</BioYear>
-          Worked at Yahoo! Japan (ヤフー株式会社入社)
-        </BioSection>
-        <BioSection>
-          <BioYear>2012 to present</BioYear>
-          Working as a freelancer
-        </BioSection>
-      </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          I&apos;m currently exploring
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          <Link href="https://illust.odoruinu.net/" target="_blank">
-            Drawing
+          Artificial Intelligence, Sustainable Cities,{' '}
+          <Link href="https://https://open.spotify.com/user/xw3ud9q8mhto3ff9qml8cvhd8" target="_blank">
+            Music Production
           </Link>
-          , Playing Drums,{' '}
-          <Link href="https://500px.com/p/craftzdog" target="_blank">
-            Photography
-          </Link>
-          , Leica, Machine Learning
+          , and UI/UX Design.
         </Paragraph>
       </Section>
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          On the web
+          Let&apos;s Connect!
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/craftzdog" target="_blank">
+            <Link href="https://github.com/nlam0" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @craftzdog
+                @nlam0
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/inkdrop_app" target="_blank">
+            <Link href="https://twitter.com/_nicklam" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoTwitter />}
               >
-                @inkdrop_app (English)
+                @_nicklam
               </Button>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://twitter.com/craftzdog" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTwitter />}
-              >
-                @craftzdog (日本語)
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://instagram.com/craftzdog" target="_blank">
+            <Link href="https://www.instagram.com/_nick.lam/" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<IoLogoInstagram />}
               >
-                @craftzdog
+                @_nick.lam
               </Button>
             </Link>
           </ListItem>
         </List>
 
-        <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;150k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid>
-
         <Heading as="h3" variant="section-title">
-          Newsletter
+          My Newsletter
         </Heading>
         <p>
-          Join me on a behind-the-scenes coding journey. Weekly updates on
-          projects, tutorials, and videos
+          Join me on a behind-the-scenes developmental journey. Receive updates on
+          my projects and learning!
         </p>
 
         <Box align="center" my={4}>
           <Button
             as={NextLink}
-            href="https://www.devas.life/"
+            href="https://www.nicklam.dev/wasd/"
             scroll={false}
             leftIcon={<EmailIcon />}
             colorScheme="teal"
           >
-            Sign up my newsletter here
+            Sign up for my newsletter here
           </Button>
         </Box>
       </Section>

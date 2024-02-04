@@ -30,7 +30,7 @@ const VoxelDog = () => {
     const { current: container } = refContainer
     if (container && renderer) {
       const scW = container.clientWidth
-      const scH = container.clientHeight
+      const scH = container.clientHeight - 5
 
       renderer.setSize(scW, scH)
     }
@@ -75,7 +75,7 @@ const VoxelDog = () => {
       setControls(controls)
 
       loadGLTFModel(scene, '/pagoda.glb', {
-        receiveShadow: true,
+        receiveShadow: false,
         castShadow: false
       }).then(() => {
         animate()

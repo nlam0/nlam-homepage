@@ -43,10 +43,10 @@ const VoxelDog = () => {
       refRenderer.current = renderer
       const scene = new THREE.Scene()
 
-      const target = new THREE.Vector3(0, 1.2, 0)
+      const target = new THREE.Vector3(15, 1.2, 15)
       const initialCameraPosition = new THREE.Vector3(
         20 * Math.sin(0.2 * Math.PI),
-        10,
+        5,
         20 * Math.cos(0.2 * Math.PI)
       )
 
@@ -69,7 +69,7 @@ const VoxelDog = () => {
 
       const controls = new OrbitControls(camera, renderer.domElement)
       controls.autoRotate = true
-      controls.target.set(10,0,10)
+      controls.target = target
 
       loadGLTFModel(scene, urlDogGLB, {
         receiveShadow: false,

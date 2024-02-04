@@ -15,7 +15,7 @@ const VoxelDog = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(10, 10, 10))
+  const [target] = useState(new THREE.Vector3(3, 6, 3))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
       20 * Math.sin(0.5 * Math.PI),
@@ -74,7 +74,7 @@ const VoxelDog = () => {
       controls.target = target
       setControls(controls)
 
-      loadGLTFModel(scene, '/farm.glb', {
+      loadGLTFModel(scene, '/castle.glb', {
         receiveShadow: true,
         castShadow: false
       }).then(() => {

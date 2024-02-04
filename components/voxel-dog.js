@@ -19,7 +19,7 @@ const VoxelDog = () => {
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
       20 * Math.sin(0.5 * Math.PI),
-      10,
+      20,
       20 * Math.cos(0.5 * Math.PI)
     )
   )
@@ -30,7 +30,7 @@ const VoxelDog = () => {
     const { current: container } = refContainer
     if (container && renderer) {
       const scW = container.clientWidth
-      const scH = container.clientHeight - 5
+      const scH = container.clientHeight + 30
 
       renderer.setSize(scW, scH)
     }

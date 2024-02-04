@@ -15,7 +15,7 @@ const VoxelDog = () => {
   const [loading, setLoading] = useState(true)
   const [renderer, setRenderer] = useState()
   const [_camera, setCamera] = useState()
-  const [target] = useState(new THREE.Vector3(3, 3, 3))
+  const [target] = useState(new THREE.Vector3(10, 10, 10))
   const [initialCameraPosition] = useState(
     new THREE.Vector3(
       20 * Math.sin(0.5 * Math.PI),
@@ -75,7 +75,7 @@ const VoxelDog = () => {
       setControls(controls)
 
       loadGLTFModel(scene, '/farm.glb', {
-        receiveShadow: false,
+        receiveShadow: true,
         castShadow: false
       }).then(() => {
         animate()
@@ -93,7 +93,7 @@ const VoxelDog = () => {
           const p = initialCameraPosition
           const rotSpeed = -easeOutCirc(frame / 120) * Math.PI * 20
 
-          camera.position.y = 22
+          camera.position.y = 18
           camera.position.x =
             p.x * Math.cos(rotSpeed) + p.z * Math.sin(rotSpeed)
           camera.position.z =

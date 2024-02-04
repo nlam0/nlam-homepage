@@ -52,7 +52,7 @@ const VoxelDog = () => {
 
       // 640 -> 240
       // 8   -> 6
-      const scale = scH * 0.1
+      const scale = scH * 0.07
       const camera = new THREE.OrthographicCamera(
         -scale,
         scale,
@@ -84,6 +84,9 @@ const VoxelDog = () => {
       const animate = () => {
         req = requestAnimationFrame(animate)
 
+        //make it so initial frame under 100, camera is directly above, spins on center axis
+        // then after frame 100, go to camera set normal as above
+        //will hopefully get rid of weird spin effect at start
         frame = frame <= 100 ? frame + 1 : frame
 
         if (frame <= 100) {
